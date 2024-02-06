@@ -1,0 +1,516 @@
+
+.company-name {
+    margin-top: 30px;
+    font-family: 'Merriweather', serif;
+    font-weight: 600;
+}
+
+.company-info {
+    font-family: 'Merriweather', serif;
+    border-style: none;
+}
+
+.company-info .card-title {
+    font-weight: 800;
+}
+
+.nav-col {
+    font-family: 'Courier New', Courier, monospace;
+}
+.footer {
+    font-family: 'Merriweather', serif;
+}
+
+.company-info .card-body :hover{
+    box-shadow: 1rem 1.2rem lightblue;
+    transition: 300ms;
+}
+
+
+/* About us section */
+.team-header {
+    text-align: center;
+    
+}
+
+/*contact section styling*/
+.contact-page-content{
+    margin-top: 8rem;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
+
+
+.contact-page-head {
+    margin-top: 4rem;
+ font-size: xx-large;
+}
+
+.service-cont{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+}
+
+.A1 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*contact form styling*/
+
+.contact-form-card{
+    background-color: #CDF5FD;
+    top: 2rem;
+}
+
+/*footer styling*/
+.contacts .btn{
+    background-color: #A0E9FF;
+}
+
+.contact-btn:hover{
+    background-color: #818FB4;
+    transition: 500ms;
+}
+
+.service-item{
+
+    height: 100%;
+}
+
+/*individual service styling*/
+.service-card-body{
+    border-style: none;
+}
+
+.service-card-body:hover{
+    border-style: solid;
+    border-color: #83C0C1;
+    border-width: 0.5rem;
+    transition: 350ms;
+    border-width: 0.2rem;
+    border-radius: 10%;
+    transition-timing-function:ease;
+    box-shadow: 10px 10px 70px #7FC7D9;
+    transition-delay: 200ms;
+    margin-bottom: 3rem;
+}
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+    #toggler-icon {
+        margin-right: 0;
+        margin-left: 100%;
+    }
+    .logo {
+        width: 400px;
+    }
+
+    .address .contacts .services {
+        font-size: small;
+        width: 500px;
+        height: 100px;
+
+    }
+
+    .service-body .contact-body .address-body {
+        width: 400px;
+    }
+
+    .logo-container {
+        border-radius: 60%;
+        margin-bottom: 40px;
+        margin-top: 20px;
+    }
+
+    .logo {
+        border-radius: 20%;
+        
+    }
+
+    .logo:hover {
+        box-shadow: 1.5rem 2rem #EAD7BB;
+        margin-right: 30px;
+        transition: 300ms;
+    }
+
+
+    /*footer styling */
+    .footer {
+        
+        background-color: #113946;
+        margin-bottom: 20px;
+    }
+
+
+    /*About us section */
+    .team-header{
+        margin-top: 1rem;
+        font-size: 2rem;
+        font-weight: bolder;
+        margin-bottom: 0.5rem;
+    }
+
+    .A1 .head{
+        font-size: 1.5rem;
+        text-align: center;
+        padding-top: 0.5rem;
+    }
+
+    .A1-item{
+        box-sizing: border-box;
+        font-size: 1rem;
+        
+    }
+
+    .team-member{
+        margin-bottom: 2rem;
+    }
+
+
+    /*services page styling*/
+    .page-title-cont{
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .page-title{
+        font-size: 1.5rem;
+    }
+
+    .service-cont{
+        margin-left: 2rem;
+        margin-right: 1rem;
+        
+    }
+    .service-item{
+        margin-bottom: 12rem;
+        height: 95%;
+    }
+
+    /* contact section styling*/
+    .contact-page-content{
+        margin-top: 2rem;
+    }
+
+    .contact-page-head {
+        margin-top: 2rem;
+     font-size: larger;
+    }
+
+    /*contact form*/
+    .contact-form{
+        margin-top: 3rem; 
+    }
+    .contact-form-card{
+        margin-left: 0.7rem;
+    }
+
+    .service-card-body{
+        box-shadow: 10px -10px 10px #7FC7D9;
+        margin-top: 3rem;
+    }
+ }
+
+/*Small devices (landscape phones, less than 768px)*/ 
+@media (max-width: 767.98px) { 
+
+ }
+
+/* Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) { 
+    /*service page styling*/
+    
+    .page-title-cont{
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+    }
+ }
+
+
+@media (min-width: 991.98px) {
+    /*contact form*/
+    .contact-form {
+        margin-top: 3rem; 
+        margin-left: 10rem;
+    }
+    .contact-form-card {
+        top: 8rem;
+        margin-left: 12rem;
+        width: 40rem;
+    }
+ }
+
+/* Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) { 
+
+    .footer {
+        
+        background-color: #113946;
+        margin-top: 100px;
+        
+    }
+
+    #service-cont, #address-cont, #contact-cont {
+        
+        padding: 10px;
+    } 
+
+    #service-cont {
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+        margin-top: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    #address-cont {
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+    
+    #contact-cont {
+        margin-left: 20px;
+        margin-right: 20px
+    }
+    
+    /* About page styling */
+    #about-section{
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+        font-size: 2rem;
+        
+    }
+    
+    .A1{
+        box-sizing: border-box;
+        height: 30rem;
+        margin-top: 5rem;
+        margin-bottom: 3rem;
+        border-radius: 50%;
+        border-color: #113946;
+        border-width: 4rem;
+        padding-top: 2rem;
+       
+    }
+
+    
+    
+    .A1 .head {
+        font-family: 'Roboto Slab', serif;
+        text-align: center;
+       
+        font-size: larger;
+        font-weight: 700;
+        background-color: #B4B4B8;
+       
+        border-top-color: white;
+    }
+
+    
+
+    .A1:hover{
+        border-radius: 1%;
+        color: #FFF8E3;
+        background-color: #232D3F;
+        text-overflow:calc();
+        transition-duration: 1s;
+        transform-style:flat;
+        
+        .head {
+            
+            color: #EAD7BB;
+            background-color: #232D3F;
+        }
+    }
+
+    /*service page styling*/
+   
+    .page-title-cont{
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+    }
+
+    .service-item{
+        margin-bottom: 2rem;
+        
+    }
+
+    #ee-image{
+        height: 200px;
+    }
+    .service-card-body{
+        box-shadow: 10px -5px #7FC7D9;
+    }
+    
+    
+   
+ }
+
+ @media (min-width: 1200px){
+
+    /* navigation bar styling */
+    .nav-row {
+        margin-top: 30px;
+    }
+
+    .nav-col {
+        margin-left: 450px;
+        font-weight: 600;
+    }
+
+    .main-content {
+        margin-top: 200px;
+
+    }
+
+    
+
+    .logo-container {
+        border-radius: 60%;
+    }
+
+    .logo {
+        border-radius: 20%;
+        
+    }
+
+    .logo:hover {
+        box-shadow: 2rem 3rem #EAD7BB;
+        margin-right: 30px;
+        transition: 300ms;
+    }
+
+    .footer {
+        margin-top: 200px;
+        background-color: #113946;
+        margin-bottom: 20px;
+    }
+    
+    #service-cont, #address-cont, #contact-cont {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border-color: aliceblue;
+        
+        padding: 20px;
+    } 
+
+    #service-cont {
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+
+    #address-cont {
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+    
+
+    #service-footer, #address-footer, #contact-footer{
+        margin-top: 20px;
+        margin: 20px;
+        padding: 20px;
+       
+    }
+
+
+    /* About page */
+    
+
+    .team-header {
+        font-size: 2rem;
+        margin-top: 4rem;
+        font-weight: bolder;
+    }
+
+    .A1{
+        width: auto;
+        height: 10rem;
+        box-sizing: border-box ;
+        border-radius: 50%;
+        border-color: #113946;
+        border-width: 4rem;
+        padding-top: 2rem;
+       margin-bottom: 3rem;
+    }
+
+    .A1 .head {
+        font-family: 'Roboto Slab', serif;
+        text-align: center;
+        padding-top: 1rem;
+        font-size: larger;
+        font-weight: 700;
+        background-color: #B4B4B8;
+        border-top-width: 2rem;
+        border-top-color: white;
+    }
+
+    .A1-item.head{
+        padding-top: 3rem;
+        font-size: x-large;
+    }
+
+    .A1:hover{
+        border-radius: 1%;
+        color: #FFF8E3;
+        background-color: #232D3F;
+        transform-origin: 0;
+        transition-duration: 1s;
+        transform-style:flat;
+        border-top-width: 2rem;
+        border-top-color: white;
+        .head {
+            color: #EAD7BB;
+            background-color: #232D3F;
+        }
+
+        .A1-item {
+            background-color: #232D3F;
+        }
+    }
+    
+    #A0{
+        margin-top: 10rem;
+    }
+    #about-section{
+        text-align: center;
+        margin-bottom: 4rem;
+    }
+
+    /* team members styling */
+    .team-member{
+        width: 27%;
+        margin: 2%;
+    }
+
+
+    /*service page styling*/
+    .page-title-cont{
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+    }
+    .service-cont{
+        margin-left: 20rem;
+        margin-right: 1rem;
+        margin-bottom: 2rem;
+    }
+    .service-item{
+        margin-bottom: 2rem;
+        height: 100%;
+    }
+
+    /*individual service styling*/
+    .service-rows {
+        margin-left: 3rem;
+        margin-right: 3rem;
+        margin-top: 8rem;
+    }
+    .service-col{
+        margin-bottom: 3rem;
+        height: 100%;
+    }
+    .service-card-body{
+        box-shadow: 10px -5px #7FC7D9;
+    }
+ }
+
