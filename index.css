@@ -74,6 +74,9 @@
 
     height: 100%;
 }
+.sub-list {
+    color: beige;
+}
 
 /*individual service styling*/
 .service-card-body{
@@ -137,6 +140,12 @@
         
         background-color: #113946;
         margin-bottom: 20px;
+    }
+
+    .sub-list {
+        font-size: 0.6rem;
+        text-align: left;
+        color: beige;
     }
 
 
